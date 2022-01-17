@@ -1,10 +1,4 @@
 /**
- * Expose `parse`.
- */
-
-module.exports = parse;
-
-/**
  * Parse the given string of `xml`.
  *
  * @param {String} xml
@@ -155,3 +149,9 @@ function parse(xml) {
     return 0 == xml.indexOf(prefix);
   }
 }
+
+/**
+ * Expose `parse`.
+ */
+
+export default parse;
