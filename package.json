@@ -10,9 +10,6 @@
     "xml",
     "sucks"
   ],
-  "dependencies": {
-    "debug": "^2.2.0"
-  },
   "devDependencies": {
     "matcha": "^0.6.0",
     "mocha": "^2.2.5",
